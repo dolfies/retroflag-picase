@@ -2,7 +2,7 @@
 
 **Section 1**\
 Installers for NesPi+, MegaPi, SuperPi cases and (since 2020/08/22) **NESPI4**
-Support for RetroPie, RecalBox and BATOCERA
+Support for RetroPie, RecalBox, BATOCERA, and Ubuntu!
 
 **Section 2**\
 Installer for the GPi case\
@@ -22,7 +22,7 @@ for RetroPie, RecalBox and BATOCERA
 #### **Multi Switch Shutdown**
 with advanced shutdown features for more natural behaviour:
 * If you press restart if emulator is currently running, then you will be kicked back to ES main menu
-* If you press restart in ES main screen, ES will be restartet (no reboot!), good for quick saving metadata or internal saves.
+* If you press restart in ES main screen, ES will be restarted (no reboot!), good for quick saving metadata or internal saves.
 * If you press power-off then Raspberry will shutdown
 
 All metadata is always saved
@@ -31,13 +31,17 @@ Turn switch "SAFE SHUTDOWN" on PCB to ON.
 
 --------------------
 
-#### Example for **RetroPie:**
+#### Example for **RetroPie** and **Ubuntu:**
 1. Make sure internet connected.
 2. Make sure keyboard connected.
-3. Press F4 enter terminal.
+3. Press F4 enter terminal (RetroPie only).
 4. In the terminal, type the one-line command below (case sensitive):
 
+For RetroPie:\
 **`wget -O - "https://raw.githubusercontent.com/crcerror/retroflag-picase/master/install.sh" | sudo bash`**
+
+For Ubuntu:\
+**`wget -O - "https://raw.githubusercontent.com/crcerror/retroflag-picase/master/install_ubuntu.sh" | sudo bash`**
 
 --------------------
 
@@ -99,7 +103,7 @@ All metadata is always saved
 
 ## Section 3. Uninstallers
 
-#### Example for RetroPie
+#### Example for RetroPie and Ubuntu
 Type in the terminal, type the one-line command below (case sensitive):
 
 **`wget -O - "https://raw.githubusercontent.com/crcerror/retroflag-picase/master/uninstall_all.sh" | sudo bash`**
