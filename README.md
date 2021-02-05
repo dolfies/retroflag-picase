@@ -11,7 +11,7 @@ Support for RetroPie and BATOCERA
 **Section 3**\
 Uninstall for all systems and all cases\
 This means uninstaller for NesPi+, MegaPi, SuperPi and GPi cases\
-for RetroPie, RecalBox and BATOCERA
+for RetroPie, RecalBox, BATOCERA, and Ubuntu.
 
 ## Section 1. RetroFlag Pi-Case+ Safe Shutdown
 
