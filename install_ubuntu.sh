@@ -1,6 +1,4 @@
 #!/bin/bash
-# Mod by Dolfies
-# This is meant only for Ubuntu (confirmed working on Ubuntu Server 20.10)
 
 #Step 1) Check if root--------------------------------------
 if [[ $EUID -ne 0 ]]; then
